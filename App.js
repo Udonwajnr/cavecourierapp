@@ -1,20 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,SafeAreaView } from 'react-native';
+import SafeAreaViewCss from './src/components/SafeAreaViewCss';
+import RegisterScreen from './src/screens/AuthScreens/Register';
+import LoginScreen from './src/screens/AuthScreens/LoginScreen';
+import ForgotPassword from './src/screens/AuthScreens/ForgotPassword';
+import ChangePasswordScreen from './src/screens/AuthScreens/ChangePasswordScreen';
+import HomeScreen from './src/screens/AppScreen/HomeScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={SafeAreaViewCss.androidSafeArea}>
+      <HomeScreen/>
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
