@@ -1,4 +1,4 @@
-import { View, Text,Image,ScrollView } from 'react-native'
+import { View, Text,Image,ScrollView,TouchableOpacity } from 'react-native'
 import React from 'react'
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Entypo } from '@expo/vector-icons';
@@ -14,10 +14,11 @@ const RestaurantCard = () => {
             <Text className="text-xs text-[#8C8994]">(100+)</Text>
           </View>
 
-          <View className="p-3 bg-white rounded-full">
+          <TouchableOpacity className="p-3 bg-white rounded-full">
             <Feather name="bookmark" size={15} color="#8C8994"/>
-          </View>
+          </TouchableOpacity>
         </View>
+        
       <View className="h-44">
         <Image source={require("../assets/jellof1.jpg")} className="w-full h-full rounded-2xl"/>
       </View>

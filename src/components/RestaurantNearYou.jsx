@@ -1,6 +1,7 @@
 import { View, Text, TouchableOpacity,ScrollView } from 'react-native'
 import React from 'react'
 import RestaurantCard from './RestaurantCard'
+
 const RestaurantNearYou = () => {
   return (
     <View>
@@ -15,7 +16,7 @@ const RestaurantNearYou = () => {
         </View>
       </View>
         <View>
-          <ScrollView className="mt-3" horizontal={true} >
+          <ScrollView className="mt-3" horizontal={true} showsHorizontalScrollIndicator={false} >
             <RestaurantCard/>
             <RestaurantCard/>
           </ScrollView>
