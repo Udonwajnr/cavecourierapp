@@ -2,6 +2,8 @@ import { View, Text,Image, TouchableOpacity, ScrollView } from 'react-native'
 import React from 'react'
 import { Entypo } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
+import DiscountCode from '../../components/DiscountCode';
+import TotalItems from '../../components/TotalItems';
 
 const CartScreen = () => {
   return (
@@ -141,8 +143,14 @@ const CartScreen = () => {
                 </View>
 
             </View>
-        </ScrollView>
 
+            {/* discount code */}
+            <DiscountCode/>
+
+            {/* total items */}
+
+            <TotalItems/>
+        </ScrollView>
     </View>
   )
 }
