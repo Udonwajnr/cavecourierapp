@@ -8,7 +8,7 @@ import TotalItems from '../../components/TotalItems';
 const CartScreen = () => {
   return (
     <View className="px-3 flex-1">
-        <ScrollView>
+        <ScrollView showsVerticalScrollIndicator={false}>
             <View className="flex-row justify-between py-5">
                 <Entypo name="chevron-thin-left" size={20} color="black" />
                 <Text className="text-lg font-bold">My Cart</Text>

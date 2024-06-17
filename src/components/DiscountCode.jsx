@@ -11,5 +11,4 @@ const DiscountCode = () => {
   )
 }
 
-// e9e9ea
 export default DiscountCode

@@ -9,10 +9,12 @@ import HomeScreen from './src/screens/AppScreen/HomeScreen';
 import RestaurantMenu from './src/screens/AppScreen/RestaurantMenu';
 import DetailScreen from './src/screens/AppScreen/DetailScreen';
 import CartScreen from './src/screens/AppScreen/CartScreen';
+import Checkout from './src/screens/AppScreen/Checkout';
+
 export default function App() {
   return (
     <SafeAreaView style={SafeAreaViewCss.androidSafeArea}>
-      <CartScreen/>
+      <Checkout/>
     </SafeAreaView>
   );
 }

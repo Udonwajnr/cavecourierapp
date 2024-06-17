@@ -7,9 +7,10 @@ import PromotionCard from '../../components/PromotionCard';
 import CarouselPromotion from '../../components/CarouselPromotion';
 import RestaurantFilter from '../../components/RestaurantFilter';
 import RestaurantNearYou from '../../components/RestaurantNearYou';
+
 const HomeScreen = () => {
   return (
-    <View className="px-3 py-5 h-full">
+    <View className="px-3 py-5 flex-1">
       <ScrollView showsVerticalScrollIndicator={false}>
       {/* location and notification */}
 
