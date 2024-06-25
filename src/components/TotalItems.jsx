@@ -27,7 +27,7 @@ const TotalItems = () => {
         </View>
 
         <TouchableOpacity className="py-2 bg-[#2EC76D] flex-row justify-center items-center rounded-md my-3">
-            <Text className="text-white font-semibold text-lg">Continue</Text>
+            <Text className="text-white font-semibold text-lg">Checkout</Text>
         </TouchableOpacity>
     </View>
   )

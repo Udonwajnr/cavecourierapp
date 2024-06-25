@@ -10,11 +10,12 @@ import RestaurantMenu from './src/screens/AppScreen/RestaurantMenu';
 import DetailScreen from './src/screens/AppScreen/DetailScreen';
 import CartScreen from './src/screens/AppScreen/CartScreen';
 import Checkout from './src/screens/AppScreen/Checkout';
+import SuccessfulPaymentScreen from './src/screens/AppScreen/SuccessfulPaymentScreen';
 
 export default function App() {
   return (
     <SafeAreaView style={SafeAreaViewCss.androidSafeArea}>
-      <Checkout/>
+      <SuccessfulPaymentScreen/>
     </SafeAreaView>
   );
 }
